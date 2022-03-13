@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "version": "0.0.1",
     "name": "Bot automático Whatsapp",
-    "description": "Primeiro teste de extensão",
+    "description": "Extensão destinada para automatizar as respostas do Whatsapp!",
     "author": "João Paulo M. Ragazzo",
     "browser_action": {
         "default_icon": "assets/icon.png",
@@ -12,9 +12,6 @@
     "permissions":[
         "clipboardWrite",
         "clipboardRead"
-    ],
-    "host_permissions":[
-        "<all_urls>"
     ]
 
 }
