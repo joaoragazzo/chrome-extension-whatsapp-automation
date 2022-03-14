@@ -40,12 +40,13 @@ h2 {
 }
 
 .form-group{
-    margin-bottom: 20px !important;
-    margin-left: 40px !important;
-    margin-right: 40px !important;
+    margin-bottom: 10px !important;
     text-align: left !important;
 }
 
-.btn-forgotpassword{
-    margin: 0px;
+.btn-login{
+    margin-top: 30px !important;
+    background-color: rgb(241, 173, 45) !important;
+    font-weight: bolder;
+    width: 100%;
 }
