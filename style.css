@@ -4,6 +4,19 @@ body{
     font-family: 'Red Hat Display', sans-serif, !important;
 }
 
+h1 {
+    font-weight: bolder !important;
+    padding: 0px 60px;
+}
+
+i {
+    color:rgb(241, 173, 45)
+}
+
+h2 {
+    padding: 0px 40px;
+}
+
 #navbar{
     background-color: rgb(29, 29, 29);
     padding: 7px 0px;
@@ -12,4 +25,27 @@ body{
     font-size: large;
     justify-content: center;
     text-align: center;
+}
+
+.content{
+    padding: 40px 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.advice{
+    padding: 10px 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 20px !important;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+    text-align: left !important;
+}
+
+.btn-forgotpassword{
+    margin: 0px;
 }

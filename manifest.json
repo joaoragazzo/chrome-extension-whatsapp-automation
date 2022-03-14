@@ -4,7 +4,7 @@
     "name": "Bot automático Whatsapp",
     "description": "Extensão destinada para automatizar as respostas do Whatsapp!",
     "author": "João Paulo M. Ragazzo",
-    "browser_action": {
+    "action": {
         "default_icon": "assets/icon.png",
         "default_title": "Bot de Whatsapp",
         "default_popup": "index.html"
