@@ -27,10 +27,12 @@ h2 {
     text-align: center;
 }
 
-.content{
+.login-page{
     padding: 40px 50px;
     justify-content: center;
     text-align: center;
+    opacity: 1;
+    transition: all 1s;
 }
 
 .advice{
@@ -47,6 +49,6 @@ h2 {
 .btn-login{
     margin-top: 30px !important;
     background-color: rgb(241, 173, 45) !important;
-    font-weight: bolder;
+    font-weight: bolder !important;
     width: 100%;
 }
