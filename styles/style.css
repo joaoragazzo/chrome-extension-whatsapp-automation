@@ -17,14 +17,35 @@ h2 {
     padding: 0px 40px;
 }
 
+#warning-username{
+    margin-left: 10px;
+    color: red;
+    display: none;
+
+}
+
+#warning-password{
+    margin-left: 10px;
+    color: red;
+    display: none;
+}
+
 #navbar{
     background-color: rgb(29, 29, 29);
     padding: 7px 0px;
     box-shadow: 2px 5px 3px gray;
-
+    
     font-size: large;
     justify-content: center;
     text-align: center;
+}
+
+#btnBuy {
+    font-weight: bold !important;
+}
+
+#btnHelp {
+    font-weight: bold !important;
 }
 
 .login-page{
