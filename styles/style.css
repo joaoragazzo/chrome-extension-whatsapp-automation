@@ -46,6 +46,7 @@ h2 {
 
 #btnHelp {
     font-weight: bold !important;
+    color: white !important;
 }
 
 .login-page{
@@ -73,3 +74,4 @@ h2 {
     font-weight: bolder !important;
     width: 100%;
 }
+

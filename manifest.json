@@ -11,7 +11,13 @@
     },
     "permissions":[
         "clipboardWrite",
-        "clipboardRead"
-    ]
+        "clipboardRead",
+        "storage"
+    ],
+    "externally_connectable":{
+        "matches": [
+            "https://web.whatsapp.com/"
+        ]
+    }
 
 }
