@@ -12,12 +12,14 @@
     "permissions":[
         "clipboardWrite",
         "clipboardRead",
-        "storage"
+        "storage",
+        "tabs",
+        "scripting"
     ],
-    "externally_connectable":{
-        "matches": [
-            "https://web.whatsapp.com/"
-        ]
-    }
-
+    "content_scripts":[
+        {
+            "matches": ["<all_urls>"],
+            "js": ["scripts/contentScript.js"]
+        }
+    ]
 }

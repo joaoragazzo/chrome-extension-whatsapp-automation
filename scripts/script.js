@@ -34,8 +34,7 @@ function checkFormInput(e){
     }
 
     if(username == "admin" && password == "admin"){
-        alert("Logado com a conta de admin!");
-        window.location.href = "login.html"
+        window.location.href = "login.html";
         return 0
     }
 
