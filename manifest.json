@@ -16,10 +16,15 @@
         "tabs",
         "scripting"
     ],
-    "content_scripts":[
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
         {
             "matches": ["<all_urls>"],
             "js": ["scripts/contentScript.js"]
         }
-    ]
+    ],
+    "web_accessible_resources": [{
+        "resources": ["scripts/mainScript.js"],
+        "matches": ["<all_urls>"]
+    }]
 }
