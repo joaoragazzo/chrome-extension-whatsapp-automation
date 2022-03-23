@@ -21,25 +21,56 @@
     <title>Document</title>
 </head>
 <body>
-
     <div id = "navbar" class = "row">
         <div class = "col-2">
             <img src="assets/icon.png" width="30">
         </div>
+        <div class="col-8 title">
+            Respostas prontas para o Whatsapp
+        </div>
         <div class="col">
+            <button id="btn-logout" class="botao">
+                <img src="icons/box-arrow-in-right.svg" alt="Bootstrap" width="20" height="20">
+                <small>Logout</small>
+            </button>
+        </div>
+    </div>
+
+    <div id="navbar-2" class="row">
+        <div class="container">
             <div class="row">
-                <div class="col">
-                    <button id="btnBuy" class="btn btn-success">Início</button>
+                <div class="col-sm">
+                    <button id="btn-awnsers" class="botao">
+                        <img src="icons/send-fill.svg" alt="Bootstrap" width="20" height="20">
+                        <small>Mensagens</small>
+                    </button>
                 </div>
-                <div class="col">
-                    <button id="btnHelp" class="btn btn-info">Configuração</button>
+                <div class="col-sm">
+                    <button id="btn-config" class="botao">
+                        <img src=icons/send-plus-fill.svg alt="Bootstrap" width="20" height="20">
+                        <small>Adicionar</small>
+                    </button>
+                </div>
+                <div class="col-sm">
+                    <button id="btn-config" class="botao">
+                        <img src="icons/gear-wide.svg" alt="Bootstrap" width="20" height="20">
+                        <small>Configurações</small>
+                    </button>
+                </div>
+                <div class="col-sm">
+                    <button id="btn-about" class="botao">
+                        <img src="icons/file-earmark-text-fill.svg" alt="Bootstrap" width="20" height="20">
+                        <small>Sobre</small>
+                    </button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="mainPage">
-        <button id="send-button" class="btn btn-primary btn-login">Enviar mensagem</button>
+    <div id="main-page" class="main-page">
+
+
+        <button id="send-button" class="btn btn-primary btn-login">Enviar mensagem</button>     
     </div>
 
     <script src="scripts\login.js"></script>

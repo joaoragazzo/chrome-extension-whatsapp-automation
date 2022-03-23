@@ -7,11 +7,9 @@
     "action": {
         "default_icon": "assets/icon.png",
         "default_title": "Bot de Whatsapp",
-        "default_popup": "index.html"
+        "default_popup": "login.html"
     },
     "permissions":[
-        "clipboardWrite",
-        "clipboardRead",
         "storage",
         "tabs",
         "scripting"
@@ -22,9 +20,5 @@
             "matches": ["<all_urls>"],
             "js": ["scripts/contentScript.js"]
         }
-    ],
-    "web_accessible_resources": [{
-        "resources": ["scripts/mainScript.js"],
-        "matches": ["<all_urls>"]
-    }]
+    ]
 }

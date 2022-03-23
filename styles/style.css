@@ -40,6 +40,17 @@ h2 {
     text-align: center;
 }
 
+#navbar-2{
+    background-color: rgb(241, 173, 45);
+    padding: 7px 0px;
+    box-shadow: 2px 5px 3px gray;
+
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
 #btnBuy {
     font-weight: bold !important;
 }
@@ -47,6 +58,18 @@ h2 {
 #btnHelp {
     font-weight: bold !important;
     color: white !important;
+}
+
+#horizontal-line{
+    width: 700px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.botao{
+    background-color: transparent !important;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    border: 0px
 }
 
 .login-page{
@@ -75,3 +98,12 @@ h2 {
     width: 100%;
 }
 
+.main-page{
+    padding: 40px 50px;
+}
+
+.title{
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}

@@ -10,10 +10,3 @@ async function gotMessage(message, sender, sendResponse){
     textarea.dispatchEvent(new InputEvent("input", { bubbles: true }));
     (main.querySelector(`[data-testid="send"]`) || main.querySelector(`[data-icon="send"]`)).click()
 }
-
-var s = document.createElement('script');
-s.src = chrome.runtime.getURL('scripts/mainScript.js');
-s.onload = function() {
-    this.remove();
-};
-(document.head || document.documentElement).appendChild(s);
