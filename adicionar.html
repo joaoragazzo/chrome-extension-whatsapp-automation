@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Import the Red Hat Google Font-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
@@ -18,9 +18,11 @@
     <!-- Import W3.css -->
     <link rel="stylesheet" href="styles/w3.css"> 
 
+
     <title>Document</title>
 </head>
 <body>
+
     <div id = "navbar" class = "row">
         <div class = "col-2">
             <img src="assets/icon.png" width="30">
@@ -67,11 +69,19 @@
         </div>
     </div>
 
-    <div id="main-page" class="main-page">
-        <button id="send-button" class="btn btn-primary btn-login">Enviar mensagem</button>     
+    <div class="add_menu">
+        <div class="row">
+            <div class="col-10">
+                Adicionar mensagens novas
+            </div>
+            <div class="col">
+                <button class="botao">
+                    <img src="icons/plus-circle-dotted.svg" alt="Bootstrap" height="30" width="30" style="vertical-align: center;">
+                </button>
+            </div>
+        </div>        
     </div>
 
-    <script src="scripts\login.js"></script>
-    <script src="scripts\navbuttons.js"></script>
+    <script src="scripts/navbuttons.js"></script>
 </body>
 </html>
