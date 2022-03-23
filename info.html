@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--Import the Red Hat Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,9 @@
 
     <title>Document</title>
 </head>
+
 <body>
+
     <div id = "navbar" class = "row">
         <div class = "col-2">
             <img src="assets/icon.png" width="30">
@@ -40,25 +43,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <button id="awnsers-button" class="botao">
+                    <button id="btn-awnsers" class="botao">
                         <img src="icons/send-fill.svg" alt="Bootstrap" width="20" height="20">
                         <small>Mensagens</small>
                     </button>
                 </div>
                 <div class="col-sm">
-                    <button id="add-button" class="botao">
+                    <button id="btn-config" class="botao">
                         <img src=icons/send-plus-fill.svg alt="Bootstrap" width="20" height="20">
                         <small>Adicionar</small>
                     </button>
                 </div>
                 <div class="col-sm">
-                    <button id="config-button" class="botao">
+                    <button id="btn-config" class="botao">
                         <img src="icons/gear-wide.svg" alt="Bootstrap" width="20" height="20">
                         <small>Configurações</small>
                     </button>
                 </div>
                 <div class="col-sm">
-                    <button id="info-button" class="botao">
+                    <button id="btn-about" class="botao">
                         <img src="icons/file-earmark-text-fill.svg" alt="Bootstrap" width="20" height="20">
                         <small>Sobre</small>
                     </button>
@@ -67,10 +70,22 @@
         </div>
     </div>
 
-    <div id="main-page" class="main-page">
-        <button id="send-button" class="btn btn-primary btn-login">Enviar mensagem</button>     
+    <div class="about">
+        <div class="important-info">
+            <small>Versão 0.0.1 || Last patch: March/2022 <br> Desenvolvedor: João Paulo Martyr Ragazzo (Front-end & Back-end) </small>
+        </div>
+        <small>
+            Por hora, este é um projeto criado com a intenção
+            de ajudar pequenos comerciantes a agilizar suas respostas com seus clientes no Whatsapp, através 
+            de uma extensão do Google que oferecerá respostas prontas e customizáveis para serem enviadas. Dessa forma, aqueles 
+            clientes que possuem dúvidas mais comuns (como o preço de produtos, cardápios, horários de atendimentos...)
+            poderão ser respondidos com uma resposta rápida e prática por parte do atendente, agilizando todo processo de 
+            atendimento.
+            <br><br>
+            Nesse projeto foi utilizado o framework do Bootstrap
+        </small>
     </div>
 
-    <script src="scripts\login.js"></script>
+    <script src="scripts/info.js"></script>
 </body>
 </html>

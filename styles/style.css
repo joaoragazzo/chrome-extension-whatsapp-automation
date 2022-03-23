@@ -43,7 +43,7 @@ h2 {
 #navbar-2{
     background-color: rgb(241, 173, 45);
     padding: 7px 0px;
-    box-shadow: 2px 5px 3px gray;
+    box-shadow: 2px 5px 10px gray;
 
     font-size: large;
     justify-content: center;
@@ -106,4 +106,17 @@ h2 {
     color: white;
     font-weight: bolder;
     letter-spacing: 1px;
+}
+
+.about{
+    padding: 40px 40px;
+    text-align: justify;
+    justify-content: center;
+    color:rgb(109, 109, 109)
+}
+
+.important-info {
+    padding-bottom: 30px !important;
+    text-align: left !important;
+    color: black !important;
 }
