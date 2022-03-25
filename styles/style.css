@@ -17,6 +17,26 @@ h2 {
     padding: 0px 40px;
 }
 
+ul {
+    padding: 0px 0px;
+    list-style: none;
+}
+
+div li{
+    list-style: none;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(253, 253, 253);
+    position: relative;
+    line-height: 35px;
+    margin: 7px;
+    border: 2px black;
+    border-style: solid ;
+    border-radius: 20px 6px 20px 6px;
+}
+
+
 #warning-username{
     margin-left: 10px;
     color: red;
@@ -60,6 +80,33 @@ h2 {
     background-color: transparent !important;
     border: 0px;
     color: white;
+}
+
+.enviar{
+    background-image: url('../icons/send.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+}
+
+.fixar{
+    background-image: url('../icons/pin-angle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+}
+
+.config{
+    background-image: url('../icons/gear.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
 }
 
 .login-page{
@@ -117,4 +164,15 @@ h2 {
 
 .add_menu{
     padding: 25px 25px;
+}
+
+.messages-list{
+    padding: 20px 40px 0px 40px;
+}
+.search-bar{
+    padding: 0px 10px 0px 0px !important;
+}
+
+.align-right{
+    text-align: right !important;
 }
